@@ -354,7 +354,7 @@ namespace MESdbToERPdb
                                         sqlInsertSFCTB.Append("TB200,TB201,TB202)");
                                         sqlInsertSFCTB.Append(" values ( ");
                                         sqlInsertSFCTB.Append("'TLVN','MES','GS','" + dateTm + "','','',2,'" + time + "','SFT','SFCMI05','','','',");
-                                        sqlInsertSFCTB.Append("'D201','" + TC002 + "','" + transdate + "','1','" + TA006 + "','" + TA007 + "','1','" + TA006 + "','" + TA007 + "','TL',0,'N','" + TB013 + "','','" + transdate + "','MES','N','','','',");
+                                        sqlInsertSFCTB.Append("'D201','" + TC002 + "','" + transdate + "','1','" + TA006 + "','" + TA007 + "','1','" + TA006 + "','" + TA007 + "','TL',0,'N','" + TB013 + "','','" + transdate + "','','N','','','',");
                                         sqlInsertSFCTB.Append("'','" + MOCTA56 + "','1','N','" + month + "','" + MOCTA57 + "','0','','0','0','0','" + MOCTA70 + "','VND',1,'','',");
                                         sqlInsertSFCTB.Append(TC036 + ",'" + output + "'," + NG);
                                         sqlInsertSFCTB.Append(")");
@@ -463,7 +463,7 @@ namespace MESdbToERPdb
                                 sqlInsertSFCTB.Append("TB200,TB201,TB202)");
                                 sqlInsertSFCTB.Append(" values ( ");
                                 sqlInsertSFCTB.Append("'TLVN','MES','GS','" + dateTm + "','','',2,'" + time + "','SFT','SFCMI05','','','',");
-                                sqlInsertSFCTB.Append("'D201','" + TC002 + "','" + transdate + "','1','" + TA006 + "','" + TA007 + "','1','" + TA006 + "','" + TA007 + "','TL',0,'N','" + TB013 + "','','" + transdate + "','MES','N','','','',");
+                                sqlInsertSFCTB.Append("'D201','" + TC002 + "','" + transdate + "','1','" + TA006 + "','" + TA007 + "','1','" + TA006 + "','" + TA007 + "','TL',0,'N','" + TB013 + "','','" + transdate + "','','N','','','',");
                                 sqlInsertSFCTB.Append("'','" + MOCTA56 + "','1','N','" + month + "','" + MOCTA57 + "','0','','0','0','0','" + MOCTA70 + "','VND',1,'','',");
                                 sqlInsertSFCTB.Append(TC036 + ",'" + output + "'," + NG);
                                 sqlInsertSFCTB.Append(")");

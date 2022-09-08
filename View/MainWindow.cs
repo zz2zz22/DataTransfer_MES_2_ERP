@@ -133,19 +133,19 @@ namespace MESdbToERPdb
             
             SystemLog.Output(SystemLog.MSG_TYPE.Nor, "Starting...!", "");
 
-            ////test
+            ////Dùng để chạy bù phiếu khi dừng update chương trình
 
             //tmrCallBgWorker.Stop();
             //tmrCallBgWorkerD1.Stop();
             //SystemLog.Output(SystemLog.MSG_TYPE.Nor, "StopBG...!", "");
             //UploadMain uploadMain = new UploadMain();
-            //string testInD1 = "2022-08-23 09:00:42"; //2022-01-18 03:45:29
-            //string testOutD1 = "2022-08-23 09:14:37"; //2022-01-20 11:59:17 
+            //string testInD1 = "2022-09-06 19:24:41"; //2022-01-18 03:45:29
+            //string testOutD1 = "2022-09-07 10:01:33"; //2022-01-20 11:59:17 
             //uploadMain.GetListTransferOrderD1(testInD1, testOutD1);
             //System.Threading.Thread.Sleep(900000);
 
-            //string testIn = "2022-08-23 06:50:42"; //2022-01-18 03:45:29
-            //string testOut = "2022-08-23 09:14:37"; //2022-01-20 11:59:17 
+            //string testIn = "2022-09-06 17:14:41"; //2022-01-18 03:45:29
+            //string testOut = "2022-09-07 10:01:33"; //2022-01-20 11:59:17 
             //uploadMain.GetListTransferOrder(testIn, testOut);
 
             //DataReport.SaveExcel("", Properties.Settings.Default.excelFileName, Properties.Settings.Default.cfg_senders, Properties.Settings.Default.cfg_senderPW);
